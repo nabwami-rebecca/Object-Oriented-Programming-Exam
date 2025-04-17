@@ -1,0 +1,22 @@
+{
+    "students": {
+        "st001": {
+            "student_id": "st001",
+            "student_name": "mboowa kato",
+            "grades": {
+                "cs001": 86.0
+            }
+        }
+    },
+    "courses": {
+        "cs001": {
+            "course_code": "cs001",
+            "course_name": "datascience lifecycle"
+        }
+    },
+    "enrollments": {
+        "cs001": [
+            "st001"
+        ]
+    }
+}
