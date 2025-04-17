@@ -4,7 +4,7 @@
             "student_id": "st001",
             "student_name": "wangolo",
             "grades": {
-                "cs001": 74.6
+                "cs001": 59.0
             }
         },
         "st002": {
@@ -16,17 +16,28 @@
             "student_id": "st003",
             "student_name": "Sande",
             "grades": {}
+        },
+        "st004": {
+            "student_id": "st004",
+            "student_name": "Katende John",
+            "grades": {}
         }
     },
     "courses": {
         "cs001": {
             "course_code": "cs001",
             "course_name": "introduction to datascience"
+        },
+        "cs002": {
+            "course_code": "cs002",
+            "course_name": "Introduction to computer Science"
         }
     },
     "enrollments": {
         "cs001": [
+            "st002",
             "st001"
-        ]
+        ],
+        "cs002": []
     }
 }
