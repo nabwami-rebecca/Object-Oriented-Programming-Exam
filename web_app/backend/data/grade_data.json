@@ -1,0 +1,32 @@
+{
+    "students": {
+        "st001": {
+            "student_id": "st001",
+            "student_name": "wangolo",
+            "grades": {
+                "cs001": 74.6
+            }
+        },
+        "st002": {
+            "student_id": "st002",
+            "student_name": "Sande",
+            "grades": {}
+        },
+        "st003": {
+            "student_id": "st003",
+            "student_name": "Sande",
+            "grades": {}
+        }
+    },
+    "courses": {
+        "cs001": {
+            "course_code": "cs001",
+            "course_name": "introduction to datascience"
+        }
+    },
+    "enrollments": {
+        "cs001": [
+            "st001"
+        ]
+    }
+}
